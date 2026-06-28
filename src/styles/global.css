@@ -1,0 +1,129 @@
+:root {
+  --bg: #0d0b12;
+  --bg-soft: #15121d;
+  --panel: #1b1726;
+  --panel-2: #221d31;
+  --border: #312a44;
+  --text: #e7e2f0;
+  --muted: #a79fc0;
+  --accent: #9d7bff;     /* faerie-fire violet */
+  --accent-2: #57e3c0;   /* underdark glow */
+  --danger: #ff6b6b;
+  --gold: #e8c372;
+  --radius: 14px;
+  --maxw: 1080px;
+  --font: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-ui: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1100px 700px at 80% -10%, rgba(157,123,255,0.12), transparent 60%),
+    radial-gradient(900px 600px at -10% 10%, rgba(87,227,192,0.08), transparent 55%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+
+/* ---------- Site header / nav ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 20;
+  background: rgba(13,11,18,0.82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.site-header .container {
+  display: flex; align-items: center; gap: 20px;
+  padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap;
+}
+.brand { font-family: var(--font); font-size: 1.25rem; letter-spacing: 0.5px; color: var(--text); }
+.brand b { color: var(--accent); }
+.nav { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; font-family: var(--font-ui); font-size: 0.95rem; }
+.nav a {
+  color: var(--muted); padding: 6px 12px; border-radius: 999px; border: 1px solid transparent;
+}
+.nav a:hover { color: var(--text); background: var(--panel); text-decoration: none; }
+.nav a[aria-current="page"] { color: var(--text); border-color: var(--border); background: var(--panel-2); }
+
+/* ---------- Headings ---------- */
+h1, h2, h3 { line-height: 1.2; font-weight: 600; }
+h1 { font-size: clamp(2rem, 4vw, 2.9rem); margin: 0 0 0.2em; }
+h2 { font-size: 1.7rem; margin: 1.8em 0 0.5em; }
+.page-title { margin-top: 1.2em; }
+.eyebrow { font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; color: var(--accent-2); margin: 0 0 0.4em; }
+.lead { color: var(--muted); font-size: 1.15rem; max-width: 70ch; }
+
+/* ---------- Panels & cards ---------- */
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 24px; }
+
+.grid { display: grid; gap: 22px; }
+.grid.cols-2 { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.grid.cols-3 { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+
+.card {
+  background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: transform .15s ease, border-color .15s ease;
+}
+.card:hover { transform: translateY(-3px); border-color: var(--accent); }
+.card a { text-decoration: none; color: inherit; }
+.card .thumb { aspect-ratio: 16 / 10; width: 100%; object-fit: cover; display: block; background: var(--panel-2); }
+.card .portrait { aspect-ratio: 1 / 1; width: 100%; object-fit: cover; object-position: center 22%; display: block; background: var(--panel-2); }
+.card .body { padding: 16px 18px; }
+.card .body h3 { margin: 0 0 4px; font-size: 1.25rem; }
+.card .meta { font-family: var(--font-ui); font-size: 0.82rem; color: var(--muted); }
+.card p { margin: 8px 0 0; color: var(--text); font-size: 0.98rem; }
+
+/* ---------- Badges ---------- */
+.badge {
+  display: inline-block; font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 1px; padding: 3px 9px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--muted); background: var(--panel-2);
+}
+.badge.active { color: var(--accent-2); border-color: rgba(87,227,192,0.4); }
+.badge.completed { color: var(--gold); border-color: rgba(232,195,114,0.4); }
+.badge.failed, .badge.dead { color: var(--danger); border-color: rgba(255,107,107,0.4); }
+.badge.lore { color: var(--accent); border-color: rgba(157,123,255,0.4); }
+
+/* ---------- Prose (markdown bodies) ---------- */
+.prose { max-width: 72ch; }
+.prose p { margin: 0 0 1.1em; }
+.prose img { max-width: 100%; border-radius: var(--radius); border: 1px solid var(--border); margin: 1.4em 0; }
+.prose figure { margin: 1.6em 0; }
+.prose figure img { margin: 0; }
+.prose figcaption { font-family: var(--font-ui); font-size: 0.85rem; color: var(--muted); text-align: center; margin-top: 8px; }
+.prose h2 { border-bottom: 1px solid var(--border); padding-bottom: 0.2em; }
+
+/* image helpers used inside prose / pages */
+.prose img.float-right, .float-right { float: right; width: 40%; margin: 0.3em 0 1.4em 3.5em; }
+.prose img.float-left, .float-left { float: left; width: 40%; margin: 0.3em 3.5em 1.4em 0; }
+@media (max-width: 640px) {
+  .prose img.float-right, .prose img.float-left, .float-right, .float-left { float: none; width: 100%; margin: 1.2em 0; }
+}
+.clear { clear: both; }
+
+.banner { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--border); }
+
+/* Full (uncropped) hero image, centred — for portrait/non-banner art */
+.story-hero { display: block; margin: 28px auto 0; width: auto; max-width: 100%; max-height: 78vh; border-radius: var(--radius); border: 1px solid var(--border); }
+
+/* ---------- Footer ---------- */
+.site-footer { margin-top: 64px; border-top: 1px solid var(--border); }
+.site-footer .container { padding: 28px 20px; color: var(--muted); font-family: var(--font-ui); font-size: 0.85rem; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+main { padding-bottom: 24px; }
+section { margin-top: 8px; }
+hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }

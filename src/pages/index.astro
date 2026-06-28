@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const sessions = (await getCollection('sessions')).sort(
+  (a, b) => a.data.date.valueOf() - b.data.date.valueOf()
+);
+const latest = sessions[sessions.length - 1];
+const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<Layout title="Story So Far">
+  <p class="eyebrow">A Dungeons &amp; Dragons Chronicle</p>
+  <h1 class="page-title">Out of the Abyss</h1>
+  <p class="lead">Five captives, a drow prison, and the long climb out of the dark. This is the chronicle of our campaign — the story so far, session by session.</p>
+
+  <img class="story-hero" src="/images/velkynvelve/ront-confrontation.png" alt="The party's confrontation with Ront in the slave pen" />
+
+  <section class="prose" style="margin-top:40px">
+    <h2>The Story So Far</h2>
+
+    <p>
+      It began in chains. Five strangers — the elf warlock <strong>Ilyrion Silverstar</strong>, the dwarf
+      cleric <strong>Jebediah Brightstone</strong>, the human rogue <strong>Kit</strong>, the elf rogue
+      <strong>Rhys Toromakian</strong>, and the human fighter <strong>Thibaud</strong> — woke as prisoners
+      of the drow, stripped of everything and thrown into the slave pen of <strong>Velkynvelve</strong>.
+      Around them languished ten other captives, all of them waiting for a slaver's party from
+      Menzoberranzan that was already days overdue.
+    </p>
+
+    <img class="float-right" src="/images/velkynvelve/ilvara-mizzrym.png" alt="Ilvara, commander of Velkynvelve" />
+
+    <p>
+      The outpost's commander, the priestess <strong>Ilvara</strong>, ruled by cruelty. When the party
+      goaded the bully <strong>Ront</strong> into snapping his chains, the guards struck him down and Ilvara
+      had him fed to the giant spiders below — a lesson written in blood. Yet even here the prisoners found
+      one another: the party saved the gentle myconid <strong>Stool</strong> from Ront's torment, and in
+      gratitude he gave them a priceless gift — spores that let them all speak mind to mind.
+    </p>
+
+    <p>
+      Through whispered, telepathic talk they gathered allies and secrets. The deep gnome spy
+      <strong>Jimjar</strong> revealed a rift among the drow leaders. The serene kuo-toa
+      <strong>Shuushar</strong> spoke of escaping madness through peace. The dwarf <strong>Eldeth</strong>
+      placed her trust — and a dying request — in Ilyrion's hands. And the quaggoth
+      <strong>Derendil</strong> swore he was a cursed elven prince.
+    </p>
+
+    <img class="float-left" src="/images/velkynvelve/eldeth.png" alt="Eldeth Feldrun, the dwarf prisoner" />
+
+    <p>
+      Then the dark turned darker. Three of the party were visited by nightmares of groping shadows and
+      buzzing madness, waking certain that something <em>worse than the drow</em> stirred in the deep. By
+      morning <strong>Eldeth lay murdered</strong>, her body posed as a sacrifice to a god of murder. With
+      the slavers' arrival looming, the party struck a desperate bargain with the disgraced warrior
+      <strong>Jorlan</strong>: he would leave the gate open and raise a distraction — and they would make
+      sure the blame fell on his rival.
+    </p>
+
+    <p class="clear">
+      The plan is laid. The guard is about to change. The chronicle continues with the break for freedom…
+    </p>
+
+    {latest && (
+      <p>
+        <a href={`/sessions/${latest.slug}`}>→ Read the latest session: <em>{latest.data.title}</em> ({fmt(latest.data.date)})</a>
+      </p>
+    )}
+  </section>
+</Layout>

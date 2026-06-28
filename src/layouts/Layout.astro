@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = 'Chronicle of a Dungeons & Dragons: Out of the Abyss campaign.' } = Astro.props;
+
+const nav = [
+  { href: '/', label: 'Story So Far' },
+  { href: '/sessions', label: 'Sessions' },
+  { href: '/characters', label: 'Heroes' },
+  { href: '/npcs', label: 'NPCs' },
+  { href: '/quests', label: 'Quests & Lore' },
+  { href: '/locations', label: 'Locations' },
+];
+
+// normalise current path for active-link highlighting
+const path = Astro.url.pathname.replace(/\/+$/, '') || '/';
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path === href || path.startsWith(href + '/');
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title} · Out of the Abyss</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="/">Out of the <b>Abyss</b></a>
+        <nav class="nav" aria-label="Primary">
+          {nav.map((item) => (
+            <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>A D&amp;D campaign chronicle · Out of the Abyss</span>
+        <span>Built with Astro</span>
+      </div>
+    </footer>
+  </body>
+</html>

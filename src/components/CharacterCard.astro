@@ -1,0 +1,44 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'characters'>;
+}
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await entry.render();
+
+const statusLabel =
+  data.status === 'dead' ? 'Deceased' :
+  data.status === 'unknown' ? 'Not yet met' : null;
+const initial = data.name.trim().charAt(0).toUpperCase();
+---
+<article class="card">
+  {data.image ? (
+    <img class="portrait" src={data.image} alt={`Portrait of ${data.name}`} loading="lazy" />
+  ) : (
+    <div class="portrait placeholder" aria-hidden="true"><span>{initial}</span></div>
+  )}
+  <div class="body">
+    <h3>{data.name}</h3>
+    <p class="meta">
+      {[data.race, data.role].filter(Boolean).join(' · ')}
+      {statusLabel && <span class={`badge ${data.status}`} style="margin-left:8px">{statusLabel}</span>}
+    </p>
+    <div class="desc"><Content /></div>
+    {data.sharedImageNote && <p class="shared-note">{data.sharedImageNote}</p>}
+  </div>
+</article>
+
+<style>
+  .desc :global(p) { margin: 10px 0 0; font-size: 0.98rem; }
+  .desc :global(p:first-child) { margin-top: 8px; }
+  .shared-note { margin-top: 12px; font-family: var(--font-ui); font-size: 0.78rem; color: var(--muted); font-style: italic; }
+  .placeholder {
+    display: grid; place-items: center;
+    background: linear-gradient(135deg, var(--panel-2), var(--panel));
+  }
+  .placeholder span {
+    font-size: 3.4rem; color: var(--accent); opacity: 0.55; font-family: var(--font);
+  }
+</style>
