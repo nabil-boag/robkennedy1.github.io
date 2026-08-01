@@ -4,7 +4,7 @@ sessionNumber: 1
 date: 2025-07-26
 chapter: "Chapter 1 — Velkynvelve"
 blurb: "Five strangers wake as slaves in a drow outpost, lose two of their fellow prisoners, and strike a desperate bargain to escape."
-heroImage: /images/velkynvelve/velkynvelve-outpost.png
+heroImage: /images/velkynvelve/ront-confrontation.png
 ---
 
 The party awakens stripped of equipment and dignity — barefoot, in nothing but their underwear, **manacled and collared**, the two bound together by a heavy chain. They have been captured by the drow and thrown into a slave pen in the Underdark outpost of **Velkynvelve**, alongside ten other prisoners. Their captor is **Mistress Ilvara of House Mizzrym**, a cruel drow priestess who rules with a scourge in hand, fond of reminding the prisoners that their lives now belong to her.
