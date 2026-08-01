@@ -15,6 +15,11 @@ Before it can happen, the junior priestess **Asha** appears, driving a slave ahe
 
 The newcomer is **Joy**: a blonde elf, stripped to her underwear like the others, her ears hacked off and scarred over as though someone had tried to make her pass for human. She backs into a corner and watches the pen warily.
 
+<figure style="max-width: 420px; margin-left: auto; margin-right: auto;">
+  <img src="/images/players/joy.png" alt="Joy, the elf prisoner, her ear cut and scarred" />
+  <figcaption>Joy — an elf who has clearly been someone's property for a long time.</figcaption>
+</figure>
+
 Questioned in Elvish, she says she was taken on the surface. Before that she was kept in a **circus**, displayed in a cage — a silver piece a look. The party debates whether she is a drow plant; the consensus is that the drow would never stoop to using an elf. She earns her place by trading what she overheard while serving Asha: word of the **north passage**. **Shuushar** confirms the rest — the **west** passage runs towards the **Darklake**, and his home.
 
 ## Slipping the chains
@@ -75,6 +80,11 @@ The tunnel finally widens onto a **ledge above a cavern**, lit by phosphorescent
 ## The traders
 
 In the morning, four **duergar** — grey dwarves — come up the path from the left, driving two enormous armoured spiders laden with packs and equipment. Travelling merchants, and not remotely bothered by a ledge full of naked strangers.
+
+<figure style="max-width: 520px; margin-left: auto; margin-right: auto;">
+  <img src="/images/travelling/grimnar.jpg" alt="Grimnar, the duergar trader, with his satchel of goods" />
+  <figcaption>Grimnar — grey dwarf, pedlar, and no friend of the drow he sells to.</figcaption>
+</figure>
 
 **Stool** spores so that everyone can understand one another, and the haggling begins. The party's entire fortune is a single flawed carnelian gem, worth ten gold, which had spent the imprisonment concealed about Thibaud's person — a fact the merchants are gracious enough to overlook after a wash. For it they get water skins all round, a day's rations, rope, ball bearings, two backpacks and a ten-foot pole.
 

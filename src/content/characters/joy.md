@@ -4,6 +4,7 @@ kind: pc
 race: "Elf"
 role: "Prisoner"
 status: alive
+image: /images/players/joy.png
 order: 6
 ---
 

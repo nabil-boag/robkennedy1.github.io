@@ -4,6 +4,7 @@ kind: npc
 race: "Duergar"
 role: "Travelling merchant"
 status: alive
+image: /images/travelling/grimnar.jpg
 order: 10
 ---
 
