@@ -9,7 +9,7 @@ const pcs = (await getCollection('characters', ({ data }) => data.kind === 'pc')
 <Layout title="Heroes">
   <p class="eyebrow">The Party</p>
   <h1 class="page-title">Heroes</h1>
-  <p class="lead">The five captives whose escape from the Underdark this chronicle follows.</p>
+  <p class="lead">The captives whose escape from the Underdark this chronicle follows.</p>
 
   <div class="grid cols-3" style="margin-top:32px">
     {pcs.map((entry) => <CharacterCard entry={entry} />)}
