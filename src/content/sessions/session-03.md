@@ -4,6 +4,7 @@ sessionNumber: 3
 date: 2025-08-22
 chapter: "Chapters 2 & 3 — Into Darkness and Sloobludop"
 blurb: "Seven days of tunnels, a favour owed to goblins, a friend lost to a spectator — and a god pulled out of the lake by a father's knife."
+heroImage: /images/sessions/demogorgon-attack.jpg
 ---
 
 Seven days of walking west, and a town at the end of it that will not survive the party's visit.
