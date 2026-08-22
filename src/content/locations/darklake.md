@@ -1,9 +1,11 @@
 ---
 name: "The Darklake"
-status: mentioned
+status: visited
 order: 7
 ---
 
-A great lake somewhere west in the Underdark, where — the party is told — transport can be found. The **west passage** out of Velkynvelve leads towards it, and the kuo-toa **Shuushar** comes from its shores.
+Not one lake but a chain of them — a vast series of connected caverns, black water and stone columns running from the surface of the water all the way up into the dark, further than any light the party had could reach.
 
-It was Joy, newly thrown into the slave pen, who first passed on what she had overheard about the passages; Shuushar confirmed that west meant the Darklake, and home.
+The **west passage** out of Velkynvelve leads here, and it was Joy, newly thrown into the slave pen, who first passed on what she had overheard about which way to go. **Sloobludop** stands four hours east along the shore; **Gracklstugh** lies somewhere on the opposite side.
+
+It is said to be the way to find transport and cross the Underdark. It is also where **Demogorgon** was waiting.

@@ -32,7 +32,8 @@ const characters = defineCollection({
     kind: z.enum(['pc', 'npc', 'villain']),
     race: z.string().optional(),
     role: z.string().optional(),       // class for PCs, title/role for others
-    status: z.enum(['alive', 'dead', 'unknown']).default('alive'),
+    // 'unknown' = not yet encountered; 'missing' = met, then vanished
+    status: z.enum(['alive', 'dead', 'unknown', 'missing']).default('alive'),
     image: z.string().optional(),      // /images/...
     sharedImageNote: z.string().optional(), // e.g. "Pictured with ..." for group art
     order: z.number().default(0),

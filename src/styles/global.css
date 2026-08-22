@@ -97,6 +97,7 @@ h2 { font-size: 1.7rem; margin: 1.8em 0 0.5em; }
 .badge.completed { color: var(--gold); border-color: rgba(232,195,114,0.4); }
 .badge.failed, .badge.dead { color: var(--danger); border-color: rgba(255,107,107,0.4); }
 .badge.lore { color: var(--accent); border-color: rgba(157,123,255,0.4); }
+.badge.missing { color: var(--gold); border-color: rgba(232,195,114,0.4); }
 
 /* ---------- Prose (markdown bodies) ---------- */
 .prose { max-width: 72ch; }

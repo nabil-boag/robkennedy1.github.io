@@ -10,7 +10,8 @@ const { Content } = await entry.render();
 
 const statusLabel =
   data.status === 'dead' ? 'Deceased' :
-  data.status === 'unknown' ? 'Not yet met' : null;
+  data.status === 'unknown' ? 'Not yet met' :
+  data.status === 'missing' ? 'Whereabouts unknown' : null;
 const initial = data.name.trim().charAt(0).toUpperCase();
 ---
 <article class="card">
