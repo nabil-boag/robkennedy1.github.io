@@ -1,6 +1,7 @@
 ---
 name: "The Weeping Steps"
 status: visited
+image: /images/sessions/weeping-steps.jpg
 order: 11
 ---
 
