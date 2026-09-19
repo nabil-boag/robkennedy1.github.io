@@ -1,7 +1,7 @@
 ---
 title: "Prisoners of the Drow"
 sessionNumber: 1
-date: 2025-07-26
+date: 2026-07-26
 chapter: "Chapter 1 — Velkynvelve"
 blurb: "Five strangers wake as slaves in a drow outpost, lose two of their fellow prisoners, and strike a desperate bargain to escape."
 heroImage: /images/velkynvelve/ront-confrontation.png

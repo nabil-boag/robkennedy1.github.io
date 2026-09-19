@@ -1,7 +1,7 @@
 ---
 title: "What the Tunnel Left in Them"
 sessionNumber: 4
-date: 2025-09-18
+date: 2026-09-18
 chapter: "Chapter 3 — The Long Road to Gracklstugh"
 blurb: "Going back into a town with a demon lord still in it, a bandit ambush that finally puts clothes on their backs, and three of the party discovering they can do things they could not do before."
 ---
