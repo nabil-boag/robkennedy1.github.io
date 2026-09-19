@@ -1,9 +1,10 @@
 ---
-title: "What the Tunnel Left in Them"
+title: "The Shores of Darklake"
 sessionNumber: 4
 date: 2026-09-18
 chapter: "Chapter 3 — The Long Road to Gracklstugh"
 blurb: "Going back into a town with a demon lord still in it, a bandit ambush that finally puts clothes on their backs, and three of the party discovering they can do things they could not do before."
+heroImage: /images/sessions/weeping-steps.jpg
 ---
 
 Sloobludop is still coming apart behind them, and it will be a while before anyone in the party does anything sensible.
