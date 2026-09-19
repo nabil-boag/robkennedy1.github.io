@@ -22,6 +22,10 @@ const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 
   <h1 class="page-title">{data.title}</h1>
   <p class="lead">{data.blurb}</p>
 
+  {data.heroImage && (
+    <img class="story-hero" src={data.heroImage} alt={data.title} />
+  )}
+
   <article class="prose" style="margin-top:32px">
     <Content />
   </article>

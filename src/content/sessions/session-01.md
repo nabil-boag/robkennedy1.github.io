@@ -49,8 +49,3 @@ Morning brings tragedy: **Eldeth has been murdered in her sleep** — strangled,
 Soon after, **Jorlan** himself appears. Through Stool's spores the party makes their offer: help us escape, and the blame will fall on Shoor. Jorlan agrees — though he warns that if they betray him, he will hunt them down and torture them for days. At the next changing of the guard — thirty minutes away — he will **leave the gate unlocked and create a distraction**. His advice: make for the **armoury in the guard tower** above the pen, then leap into the **spider webs** below, work down to the **pool**, and escape from there.
 
 The session ends on the cusp of the break-out, the clock already running.
-
-<figure style="max-width: 460px; margin-left: auto; margin-right: auto;">
-  <img src="/images/velkynvelve/ront-confrontation.png" alt="The party's confrontation with Ront in the slave pen" />
-  <figcaption>The confrontation with Ront — the party steps in to protect the myconid Stool.</figcaption>
-</figure>

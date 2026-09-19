@@ -4,7 +4,7 @@ sessionNumber: 2
 date: 2026-07-31
 chapter: "Chapters 1 & 2 — The Escape and Into Darkness"
 blurb: "The break for freedom — down through the webs, past the thing in the pool, and out into the dark while demons tear the outpost apart."
-heroImage: /images/sessions/vrock-and-ooze.png
+heroImage: /images/sessions/vrock-and-ooze-v2.jpg
 ---
 
 The clock is running. The guard is about to change, and **Jorlan** has promised an unlocked gate.
