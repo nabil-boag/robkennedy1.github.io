@@ -1,6 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
+// Base-aware links for the fork preview (project subpath). See Layout.astro.
+const base = import.meta.env.BASE_URL;
+
 // Audio recaps: theatrical retellings of each session (~7 min each), narrated by Atlas.
 // Final MP3s will live in public/audio/session-NN-recap.mp3 and be listed in
 // public/podcast.xml. Until an episode's MP3 exists its card renders in a
@@ -67,7 +70,7 @@ const episodes = [
   <h1 class="page-title">Audio Recaps</h1>
   <p class="lead">
     Every session retold as a short theatrical audio episode — about seven minutes each, narrated by Atlas.
-    Episodes are in production now; subscribe via the <a href="/podcast.xml">RSS feed</a> so they land in your podcast app as soon as they're released.
+    Episodes are in production now; subscribe via the <a href={`${base}podcast.xml`}>RSS feed</a> so they land in your podcast app as soon as they're released.
   </p>
 
   <div class="grid cols-2" style="margin-top:32px">
@@ -82,7 +85,7 @@ const episodes = [
             Your browser does not support the audio element.
           </audio>
           <p class="meta" style="margin-top:8px">
-            <a href={`/sessions/${ep.slug}`}>Read the full session notes →</a>
+            <a href={`${base}sessions/${ep.slug}`}>Read the full session notes →</a>
           </p>
         </div>
       </article>
@@ -93,7 +96,7 @@ const episodes = [
     <div class="body">
       <h3>Subscribe to the podcast</h3>
       <p>
-        Paste <a href="/podcast.xml">https://robkennedy1.github.io/podcast.xml</a> into your podcast app's
+        Paste <a href={`${base}podcast.xml`}>https://robkennedy1.github.io/podcast.xml</a> into your podcast app's
         “Add podcast by URL / RSS” option and new recaps will arrive automatically.
       </p>
     </div>
