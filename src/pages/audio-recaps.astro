@@ -1,11 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-// Base-aware links for the fork preview (project subpath). See Layout.astro.
-const base = import.meta.env.BASE_URL;
 
-// Audio recaps: theatrical retellings of each session (~7 min each), narrated by Atlas.
-// Final MP3s will live in public/audio/session-NN-recap.mp3 and be listed in
+// Audio recaps: theatrical retellings of each session, narrated by Atlas.
+// Final MP3s live in public/audio/session-NN-recap.mp3 and are listed in
 // public/podcast.xml. Until an episode's MP3 exists its card renders in a
 // "coming soon" state with the player disabled — never point <audio> src at
 // a file that doesn't exist.
@@ -16,6 +14,8 @@ const episodes = [
     title: 'Prisoners of the Drow',
     date: '26 July 2025',
     blurb: 'Five strangers wake as slaves in a drow outpost, lose two of their fellow prisoners, and strike a desperate bargain to escape.',
+    audio: '/audio/session-01-recap.mp3',
+    duration: '7:27',
   },
   {
     n: 2,
@@ -23,6 +23,8 @@ const episodes = [
     title: 'A Daring Escape',
     date: '31 July 2025',
     blurb: 'The break for freedom — down through the webs, past the thing in the pool, and out into the dark while demons tear the outpost apart.',
+    audio: '/audio/session-02-recap.mp3',
+    duration: '8:42',
   },
   {
     n: 3,
@@ -30,6 +32,8 @@ const episodes = [
     title: 'The Deep Father',
     date: '22 August 2025',
     blurb: 'Seven days of tunnels, a favour owed to goblins, a friend lost to a spectator — and a god pulled out of the lake by a father\'s knife.',
+    audio: '/audio/session-03-recap.mp3',
+    duration: '8:53',
   },
   {
     n: 4,
@@ -37,6 +41,8 @@ const episodes = [
     title: 'The Shores of Darklake',
     date: '18 September 2026',
     blurb: 'Going back into a town with a demon lord still in it, a bandit ambush that finally puts clothes on their backs, and three of the party discovering they can do things they could not do before.',
+    audio: '/audio/session-04-recap.mp3',
+    duration: '7:06',
   },
 ];
 ---
@@ -61,6 +67,11 @@ const episodes = [
     letter-spacing: 1.5px;
     color: var(--accent-2);
   }
+  .episode-duration {
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+  }
   .subscribe-card {
     margin-top: 32px;
   }
@@ -69,22 +80,30 @@ const episodes = [
   <p class="eyebrow">Podcast</p>
   <h1 class="page-title">Audio Recaps</h1>
   <p class="lead">
-    Every session retold as a short theatrical audio episode. Listen here, or subscribe via the <a href={`${base}podcast.xml`}>RSS feed</a> so they land in your podcast app as soon as they're released.
+    Every session retold as a short theatrical audio episode. Listen here, or subscribe via the <a href={`/podcast.xml`}>RSS feed</a> so they land in your podcast app as soon as they're released.
   </p>
 
   <div class="grid cols-2" style="margin-top:32px">
     {episodes.map((ep) => (
       <article class="card">
         <div class="body">
-          <p class="meta">Session {ep.n} · {ep.date}</p>
+          <p class="meta">Session {ep.n} · {ep.date} · <span class="episode-duration">{ep.duration}</span></p>
           <h3>{ep.title}</h3>
           <p>{ep.blurb}</p>
-          <span class="coming-soon">Episode in production</span>
-          <audio class="recap-player" controls preload="none" disabled>
-            Your browser does not support the audio element.
-          </audio>
+          {ep.audio ? (
+            <audio class="recap-player" controls preload="metadata" src={ep.audio}>
+              Your browser does not support the audio element.
+            </audio>
+          ) : (
+            <>
+              <span class="coming-soon">Episode in production</span>
+              <audio class="recap-player" controls preload="none" disabled>
+                Your browser does not support the audio element.
+              </audio>
+            </>
+          )}
           <p class="meta" style="margin-top:8px">
-            <a href={`${base}sessions/${ep.slug}`}>Read the full session notes →</a>
+            <a href={`/sessions/${ep.slug}`}>Read the full session notes →</a>
           </p>
         </div>
       </article>
@@ -95,13 +114,14 @@ const episodes = [
     <div class="body">
       <h3>Subscribe to the podcast</h3>
       <p>
-        Paste <a href={`${base}podcast.xml`}>https://robkennedy1.github.io/podcast.xml</a> into your podcast app's
+        Paste <a href={`/podcast.xml`}>https://robkennedy1.github.io/podcast.xml</a> into your podcast app's
         “Add podcast by URL / RSS” option and new recaps will arrive automatically.
       </p>
     </div>
   </section>
 
   <p class="meta" style="margin-top:32px">
-    Ambience: SolarPhasing / Freesound, CC-BY 4.0.
+    Music: “Oppressive Gloom”, “Dark Times” and “Lord of the Land” by Kevin MacLeod
+    (incompetech.com), licensed under Creative Commons Attribution 4.0.
   </p>
 </Layout>

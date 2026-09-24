@@ -6,12 +6,44 @@
   <channel>
     <title>Out of the Abyss — Session Recaps</title>
     <link>https://robkennedy1.github.io/audio-recaps</link>
-    <description>Theatrical audio recaps of an Out of the Abyss D&amp;D campaign. About seven minutes per session, narrated by Atlas.</description>
+    <description>Theatrical audio recaps of an Out of the Abyss D&amp;D campaign. About eight minutes per session, narrated by Atlas.</description>
     <language>en-gb</language>
     <itunes:author>Out of the Abyss campaign</itunes:author>
     <itunes:image href="https://robkennedy1.github.io/images/sessions/demogorgon-attack.jpg" />
     <itunes:category text="Leisure" />
     <itunes:explicit>no</itunes:explicit>
     <generator>Hatch recap pipeline</generator>
+    <item>
+      <title>Session 1 — Prisoners of the Drow</title>
+      <description>Five strangers wake as slaves in a drow outpost, lose two of their fellow prisoners, and strike a desperate bargain to escape.</description>
+      <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
+      <enclosure url="https://robkennedy1.github.io/audio/session-01-recap.mp3" length="10734521" type="audio/mpeg" />
+      <guid>https://robkennedy1.github.io/audio/session-01-recap.mp3</guid>
+      <itunes:duration>0:07:27</itunes:duration>
+    </item>
+    <item>
+      <title>Session 2 — A Daring Escape</title>
+      <description>The break for freedom — down through the webs, past the thing in the pool, and out into the dark while demons tear the outpost apart.</description>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <enclosure url="https://robkennedy1.github.io/audio/session-02-recap.mp3" length="12544494" type="audio/mpeg" />
+      <guid>https://robkennedy1.github.io/audio/session-02-recap.mp3</guid>
+      <itunes:duration>0:08:42</itunes:duration>
+    </item>
+    <item>
+      <title>Session 3 — The Deep Father</title>
+      <description>Seven days of tunnels, a favour owed to goblins, a friend lost to a spectator — and a god pulled out of the lake by a father's knife.</description>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+      <enclosure url="https://robkennedy1.github.io/audio/session-03-recap.mp3" length="12817212" type="audio/mpeg" />
+      <guid>https://robkennedy1.github.io/audio/session-03-recap.mp3</guid>
+      <itunes:duration>0:08:53</itunes:duration>
+    </item>
+    <item>
+      <title>Session 4 — The Shores of Darklake</title>
+      <description>Going back into a town with a demon lord still in it, a bandit ambush that finally puts clothes on their backs, and three of the party discovering they can do things they could not do before.</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://robkennedy1.github.io/audio/session-04-recap.mp3" length="10245509" type="audio/mpeg" />
+      <guid>https://robkennedy1.github.io/audio/session-04-recap.mp3</guid>
+      <itunes:duration>0:07:06</itunes:duration>
+    </item>
   </channel>
 </rss>
