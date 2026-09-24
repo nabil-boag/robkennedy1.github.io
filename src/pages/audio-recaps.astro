@@ -7,8 +7,12 @@ import Layout from '../layouts/Layout.astro';
 // public/podcast.xml. Until an episode's MP3 exists its card renders in a
 // "coming soon" state with the player disabled — never point <audio> src at
 // a file that doesn't exist.
-const episodes = [
-  {
+// Base-aware links: import.meta.env.BASE_URL is '/' in production and
+// '/robkennedy1.github.io/' on the fork's project-Pages staging preview.
+const base = import.meta.env.BASE_URL;
+const withBase = (href: string) => (href === '/' ? base : base + href.slice(1));
+
+const episodes = [  {
     n: 1,
     slug: 'session-01',
     title: 'Prisoners of the Drow',
@@ -80,7 +84,7 @@ const episodes = [
   <p class="eyebrow">Podcast</p>
   <h1 class="page-title">Audio Recaps</h1>
   <p class="lead">
-    Every session retold as a short theatrical audio episode. Listen here, or subscribe via the <a href={`/podcast.xml`}>RSS feed</a> so they land in your podcast app as soon as they're released.
+    Every session retold as a short theatrical audio episode. Listen here, or subscribe via the <a href={withBase('/podcast.xml')}>RSS feed</a> so they land in your podcast app as soon as they're released.
   </p>
 
   <div class="grid cols-2" style="margin-top:32px">
@@ -91,7 +95,7 @@ const episodes = [
           <h3>{ep.title}</h3>
           <p>{ep.blurb}</p>
           {ep.audio ? (
-            <audio class="recap-player" controls preload="metadata" src={ep.audio}>
+            <audio class="recap-player" controls preload="metadata" src={withBase(ep.audio)}>
               Your browser does not support the audio element.
             </audio>
           ) : (
@@ -103,7 +107,7 @@ const episodes = [
             </>
           )}
           <p class="meta" style="margin-top:8px">
-            <a href={`/sessions/${ep.slug}`}>Read the full session notes →</a>
+            <a href={withBase(`/sessions/${ep.slug}`)}>Read the full session notes →</a>
           </p>
         </div>
       </article>
@@ -114,7 +118,7 @@ const episodes = [
     <div class="body">
       <h3>Subscribe to the podcast</h3>
       <p>
-        Paste <a href={`/podcast.xml`}>https://robkennedy1.github.io/podcast.xml</a> into your podcast app's
+        Paste <a href={withBase('/podcast.xml')}>https://robkennedy1.github.io/podcast.xml</a> into your podcast app's
         “Add podcast by URL / RSS” option and new recaps will arrive automatically.
       </p>
     </div>
