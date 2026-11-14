@@ -4,6 +4,7 @@ sessionNumber: 5
 date: 2026-11-13
 chapter: "Chapter 3 — The Long Road to Gracklstugh"
 blurb: "An empty city of giant fungus, a one-eyed creature that sees what people hide — and the answer, at last, to who strangled Eldeth."
+heroImage: /images/sessions/nothic.png
 ---
 
 Half the party sits this one out. **Ilyrion**, **Jebediah** and **Joy** carry on east with Buppido, Hemeth, Fergus, Sarith and Stool — and by the end of it, one of those companions will be dead at their hands.
