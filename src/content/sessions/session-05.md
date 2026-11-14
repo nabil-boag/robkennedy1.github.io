@@ -72,7 +72,7 @@ He doesn't deny it. He strangled **Eldeth** in the slave pen and **sacrificed he
 
 He feels no guilt. *We do not feel guilt for purging the wicked.*
 
-The party don't either. One of them shoots him through the head, and Buppido — chatty, friendly, endlessly helpful Buppido — bleeds out on the floor of the violet light.
+The party don't either. **Joy** brings her scimitar down on his head, and Buppido — chatty, friendly, endlessly helpful Buppido — bleeds out on the floor of the violet light.
 
 Ilyrion, who promised Eldeth he would carry her shield and hammer home and has failed to do it, takes some comfort in that.
 

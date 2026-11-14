@@ -16,4 +16,4 @@ It was all a front. In **Dhurgrimm**, a **nothic** turned its secret-reading eye
 
 Tied up and questioned afterwards, he didn't deny it. **He strangled Eldeth Feldrun** in the slave pen at Velkynvelve and **sacrificed her to his god** to get them all out — and the next morning, they escaped. He chose her because she was a dwarf from the surface, and his people hate surface dwarves. He felt no guilt: *we do not feel guilt for purging the wicked.*
 
-The party felt none either. He was shot through the head where he lay, in the violet light of the faerzress.
+The party felt none either. **Joy** killed him where he lay, with a scimitar to the head, in the violet light of the faerzress.

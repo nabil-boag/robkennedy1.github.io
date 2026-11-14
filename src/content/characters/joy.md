@@ -18,4 +18,4 @@ She has since emerged as the practical one, and the only member of the party who
 
 She is also, for a woman raised in a cage, oddly gentle with monsters: offered a badly camouflaged giant octopus in the shallows, she borrowed Stool's spores and sent it feelings of danger until it inked the water and left, rather than let anyone draw a blade on it.
 
-She is a **paladin**, and in Dhurgrimm it showed: she kept the party standing with laying on of hands, then cut down a grell with a blazing divine smite and took an arm off the last nothic. She has no patience for murderers either, and none of it was spent on Buppido once he confessed.
+She is a **paladin**, and in Dhurgrimm it showed: she kept the party standing with laying on of hands, then cut down a grell with a blazing divine smite and took an arm off the last nothic. She has no patience for murderers either. When Buppido confessed to strangling Eldeth and said he felt no guilt for it, it was Joy who killed him, with a scimitar to the head.
