@@ -9,7 +9,7 @@
     <description>Theatrical audio recaps of an Out of the Abyss D&amp;D campaign. About eight minutes per session, narrated by Atlas.</description>
     <language>en-gb</language>
     <itunes:author>Out of the Abyss campaign</itunes:author>
-    <itunes:image href="https://robkennedy1.github.io/images/sessions/demogorgon-attack.jpg" />
+    <itunes:image href="https://robkennedy1.github.io/images/sessions/demogorgon-attack-v2.jpg" />
     <itunes:category text="Leisure" />
     <itunes:explicit>no</itunes:explicit>
     <generator>Hatch recap pipeline</generator>
@@ -27,7 +27,7 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://robkennedy1.github.io/audio/session-02-recap.mp3" length="12544494" type="audio/mpeg" />
       <guid>https://robkennedy1.github.io/audio/session-02-recap.mp3</guid>
-      <itunes:duration>0:08:43</itunes:duration>
+      <itunes:duration>0:08:42</itunes:duration>
     </item>
     <item>
       <title>Session 3 — The Deep Father</title>
@@ -35,7 +35,7 @@
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://robkennedy1.github.io/audio/session-03-recap.mp3" length="12817212" type="audio/mpeg" />
       <guid>https://robkennedy1.github.io/audio/session-03-recap.mp3</guid>
-      <itunes:duration>0:08:54</itunes:duration>
+      <itunes:duration>0:08:53</itunes:duration>
     </item>
     <item>
       <title>Session 4 — The Shores of Darklake</title>
@@ -43,7 +43,7 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://robkennedy1.github.io/audio/session-04-recap.mp3" length="10245509" type="audio/mpeg" />
       <guid>https://robkennedy1.github.io/audio/session-04-recap.mp3</guid>
-      <itunes:duration>0:07:07</itunes:duration>
+      <itunes:duration>0:07:06</itunes:duration>
     </item>
     <item>
       <title>Session 5 — Secrets in the Violet Light</title>
@@ -51,7 +51,7 @@
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://robkennedy1.github.io/audio/session-05-recap.mp3" length="13745708" type="audio/mpeg" />
       <guid>https://robkennedy1.github.io/audio/session-05-recap.mp3</guid>
-      <itunes:duration>0:09:33</itunes:duration>
+      <itunes:duration>0:09:32</itunes:duration>
     </item>
   </channel>
 </rss>
