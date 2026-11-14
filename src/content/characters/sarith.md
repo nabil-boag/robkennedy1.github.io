@@ -17,3 +17,7 @@ On the road east from Sloobludop he **changed**. The clutching at his head stopp
 Asked what it meant, the myconids answered with two words: **corruption is spreading.**
 
 Nobody has told him.
+
+The party fed him a **tongue of madness** to make him speak every thought aloud for an hour. What came out was the same few thoughts on repeat: he wants to go to the big city, he wants to be among lots of people, his head hurts and it never stops. He has only liked people *recently*. He insists there are no orange spots on him. He says he didn't kill the drow he was accused of, and didn't see who did.
+
+He was cleared of one thing, at least: it was **Buppido**, not Sarith, who strangled Eldeth.

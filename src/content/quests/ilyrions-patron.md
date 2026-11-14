@@ -9,8 +9,6 @@ order: 15
 
 At Sloobludop, reaching towards **Demogorgon's** presence, he felt something **familiar** — not the demon lord itself, but something of the same kind.
 
-On watch at the **Weeping Steps** he tried to make contact properly for the first time. There is something out there: vast, dark, and offering no comfort at all — *a lot more frightening than that*. It resembles Demogorgon without being Demogorgon.
+On watch at the **Weeping Steps** he tried to make contact properly for the first time. There is something out there: vast, dark, and offering no comfort at all. It resembles Demogorgon without being Demogorgon. And it does not feel far away — a few nights later, he thought it felt slightly *closer*.
 
-And it does not feel far away.
-
-He has told nobody.
+He kept it to himself until a **nothic** in Dhurgrimm read it straight out of him in front of everyone: *you're communing with some monster down in the Underdark, and not telling your friends.* The party now know.
