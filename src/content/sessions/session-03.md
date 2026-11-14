@@ -43,7 +43,7 @@ The route west ends at a chasm strung from wall to wall with an enormous **netwo
 
 Two goblins come **surfing** across the webs to meet them: **Yuck Yuck** and **Spider Bait**, feet slathered in grease, who make their living guiding travellers over. The party has nothing to pay with, so Thibaud settles the fee another way — **a favour owed**, to be named later.
 
-Halfway across they find a **cocoon that is still moving**. Inside is **Fergus Rumblefoot**, a halfling whose companions were killed by gnolls on the way to the **Lost Tomb of Kaine**. Cut free and carried the rest of the way, he offers to lead the party to the tomb's treasure — assuming they don't mind the spiders.
+Halfway across they find a **cocoon that is still moving**. Inside is **Fergus Rumblefoot**, a halfling whose companions were killed by gnolls on the way to the **Lost Tomb of Khaem**. Cut free and carried the rest of the way, he offers to lead the party to the tomb's treasure — assuming they don't mind the spiders.
 
 ## The spectator, and a friend lost
 

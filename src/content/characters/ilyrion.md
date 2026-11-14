@@ -16,4 +16,6 @@ Watching **Demogorgon** tear Sloobludop apart hit him twice over: once as the th
 
 Reaching towards its fiendish presence, he felt something **familiar**, and said nothing to anyone. Days later, on watch at the Weeping Steps, he tried properly to reach his patron for the first time. He found something vast and dark that offered him no comfort whatsoever — something **like Demogorgon, but not Demogorgon**, and something that did not feel very far away at all.
 
-He is still keeping that to himself.
+He kept it to himself until **Dhurgrimm**, where a nothic read it straight out of him in front of everyone. He owned up: his power comes from something out there in the dark that feels like Demogorgon, but isn't.
+
+In the fight that followed he was grappled and knocked unconscious by a grell, and came back on a natural 20. When the murderer of **Eldeth** — the dwarf whose shield and hammer he promised to carry home — turned out to be Buppido, he was the one least inclined to spare him.

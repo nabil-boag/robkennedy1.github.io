@@ -15,7 +15,7 @@ Two miles out, in the dark, they stop and take stock. **Derendil** is not with t
 
 The prisoner they cut loose at the altar gives his name as **Hemeth** — a duergar, he says, an arms dealer from **Gracklstugh** who was trading at Sloobludop when the kuo-toa seized him. He wants to go home.
 
-Home, it turns out, is where everyone is going. **Gracklstugh** is three or four weeks east along the shore of the Darklake, **Buppido** is from there too, and **Fergus** reckons the **Lost Tomb of Kaine** lies roughly halfway along the route.
+Home, it turns out, is where everyone is going. **Gracklstugh** is three or four weeks east along the shore of the Darklake, **Buppido** is from there too, and **Fergus** reckons the **Lost Tomb of Khaem** lies roughly halfway along the route.
 
 ## Back into the town
 
