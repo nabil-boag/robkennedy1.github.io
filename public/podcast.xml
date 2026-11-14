@@ -45,5 +45,13 @@
       <guid>https://robkennedy1.github.io/audio/session-04-recap.mp3</guid>
       <itunes:duration>0:07:06</itunes:duration>
     </item>
+    <item>
+      <title>Session 5 — Secrets in the Violet Light</title>
+      <description>An empty city of giant fungus, a one-eyed creature that sees what people hide — and the answer, at last, to who strangled Eldeth.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://robkennedy1.github.io/audio/session-05-recap.mp3" length="13745708" type="audio/mpeg" />
+      <guid>https://robkennedy1.github.io/audio/session-05-recap.mp3</guid>
+      <itunes:duration>0:09:32</itunes:duration>
+    </item>
   </channel>
 </rss>
