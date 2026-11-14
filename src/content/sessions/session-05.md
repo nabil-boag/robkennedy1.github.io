@@ -1,5 +1,5 @@
 ---
-title: "What the Nothic Saw"
+title: "Secrets in the Violet Light"
 sessionNumber: 5
 date: 2026-11-13
 chapter: "Chapter 3 — The Long Road to Gracklstugh"
